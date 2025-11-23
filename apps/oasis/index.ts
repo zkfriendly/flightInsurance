@@ -206,7 +206,7 @@ const server = Bun.serve({
 
         // Return error if no matching flight found
         if (!matchedFlight) {
-          outcome = 2;
+          outcome = 1;
         }
 
         // Submit to blockchain
